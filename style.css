@@ -150,6 +150,19 @@ font-weight: 700;
   }
 }
 
+@media (min-width:501px) and (max-width:800px) {
+  .nav ul{
+    display: none;
+  }
+  .nav h1{
+    font-size: 2.5em;
+  }
+  .nav .open-bar{
+    display: block;
+  }
+  
+}
+
 /*---------------------------home------------------------*/
 .home {
   width: 100vw;
@@ -252,7 +265,6 @@ font-weight: 700;
   .home{
     height:min-content;
     margin-top:2px;
-    /* background-color: red; */
   }
   .home .home-information{
     flex-direction: column-reverse;
@@ -275,6 +287,24 @@ font-weight: 700;
   .home .profile {
     height:400px;
     overflow: hidden;
+  }
+}
+
+@media (min-width:500px) and (max-width:800px) {
+  .home{
+    height:min-content;
+    margin-top:2px;
+  }
+  .home .home-information{
+    flex-direction: column-reverse;
+    padding:10px;
+  }
+  .home .profile {
+    height:550px;
+    overflow: hidden;
+  }
+  .home-information .info {
+    width: 90%;
   }
 }
 
@@ -421,6 +451,36 @@ height: 180px;
     margin-left: -24px;
   }
 }
+
+@media (min-width:500px) and (max-width:800px){
+  .about{
+    flex-direction: column;
+  }
+  .about .image{
+        height: 250px;
+        margin-left:-20em;
+        width:100vw;
+        padding: 1.8em;
+      }
+      .about .about-information {
+        width:100%;
+        margin-right: 0;
+      }
+      .about-information h1 {
+        font-size: 2.5em;
+      }
+      .about-information h2 {
+        font-size:1.8em;
+      }
+      .about-information .about-box{
+        display: flex;
+       flex-direction: column;
+      }
+      .about-information .about-box .about-education{
+        width: 320px;
+        margin-left: -24px;
+      }
+}
 /* -------------------------------skill-------------------------- */
 .skill{
   width: 100vw;
@@ -537,7 +597,7 @@ height: 180px;
   font-weight:bold;
 }
 
-@media (min-width:200px) and (max-width:500px) {
+@media (min-width:200px) and (max-width:800px) {
   .skill .skill-box{
     display: flex;
     flex-direction: column;
@@ -635,6 +695,24 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   border-radius: 10px;
 }
 }
+@media (min-width:500px) and (max-width:800px){
+  .project h1 {
+    font-size: 2.5em;
+  }
+  .project h2 {
+    font-size:1.8em;
+  }
+  .project .project-box{
+  flex-direction: column;
+  justify-content: center;
+}
+.project-box .project-info .box{
+  width:550px;
+  height:300px;
+  border-radius: 10px;
+}
+}
+
 /* ---------------------contact---------------------- */
 .contact{
   width: 100vw;
@@ -701,7 +779,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   border-style: none;
 
 }
-@media (min-width:200px) and (max-width: 500px) {
+@media (min-width:200px) and (max-width: 800px) {
     .contact h1 {
     font-size: 2.5em;
   }
@@ -734,7 +812,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   color: white;
 }
 
-@media (min-width:200px) and (max-width: 500px) {
+@media (min-width:200px) and (max-width: 800px) {
   .footer{
   font-size: 15px;
   }
