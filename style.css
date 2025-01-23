@@ -308,7 +308,7 @@ font-weight: 700;
   }
 }
 
-@media (min-width:1000px) and (max-width:1450px) {
+@media (min-width:1000px) and (max-width:1550px) {
   .home .home-information {
     padding:5em;
   }
