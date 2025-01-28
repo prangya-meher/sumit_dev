@@ -733,7 +733,7 @@ height: 180px;
   
 }
 
-@media (min-width:1001px) and (max-width:1550px) {
+@media (min-width:1001px) and (max-width:1150px) {
   .skill h2{
     font-size:1.6em;
     color: rgb(99, 96, 96);
@@ -756,6 +756,30 @@ height: 180px;
     font-size:15px;
   }
 }
+@media (min-width:1150px) and (max-width:1350px) {
+  .skill h2{
+    font-size:1.6em;
+    color: rgb(99, 96, 96);
+  }
+  .skill h1{
+    font-size:2em ;
+  }
+  .skill .skill-box{
+    gap:15px;
+  }
+  .skill-box .box{
+    gap:15px;
+  }
+  .skill-box .box .skill-info{
+    width:130px;
+  height: 130px;
+  gap: 10px;
+  }
+  .skill-info h3{
+    font-size:15px;
+  }
+}
+
 /* -------------------------------------project----------------------- */
 .project{
   width: 100vw;
