@@ -162,6 +162,12 @@ font-weight: 700;
   }
   
 }
+@media (min-width:1000px) and (max-width:1550px){
+  .nav ul{
+    font-size: 23px;
+  }
+  
+}
 
 /*---------------------------home------------------------*/
 .home {
@@ -314,6 +320,7 @@ font-weight: 700;
   }
   .home-information .info {
     font-size: 19px;
+      width: 60%;
   }
   .home-information .info .greet {
     font-size:17px;
@@ -323,6 +330,13 @@ font-weight: 700;
   }
   .home-information .info h1 {
     font-size: 3em;
+  }
+  .home-information .info p {
+    font-size: 20px;
+  }
+  .home-information .buttons {
+    gap:1em;
+    margin-left: -36px;
   }
 }
 /* -------------------about---------------------- */
@@ -518,14 +532,34 @@ height: 180px;
       } 
 }
 
-@media (min-width:1000px) and (max-width:1450px) {
-  .about-information .about-box .about-education{
-    width: 300px;
-  } 
-  .image img {
-    width: 60%;
-    
+@media (min-width:1000px) and (max-width:1550px) {
+  .about h2{
+    font-size: 2em;
+    color: rgb(99, 96, 96);
   }
+  .about h1{
+    font-size:2.5em ;
+  }
+  .about .image {
+    width:65%;
+    height: 300px;
+    padding:1.5em;
+  }
+  .image img {
+    width:45%;
+  }
+  .about .about-information {
+    width:calc(100%-65%);
+    /* margin-right:0; */
+   
+  }
+  .about-information p {
+    font-size:20px;
+  }
+  .about-information .about-box .about-education{
+    width:250px;
+    font-size:1.5em;
+  } 
 }
 /* -------------------------------skill-------------------------- */
 .skill{
@@ -679,7 +713,7 @@ height: 180px;
   
 }
 
-@media (min-width:1000px) and (max-width:1450px) {
+@media (min-width:1000px) and (max-width:1550px) {
   .skill h2{
     font-size: 2em;
     color: rgb(99, 96, 96);
@@ -810,10 +844,9 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
     flex-direction: column;
     justify-content: center;
   }
-  
 }
 
-@media (min-width:1000px) and (max-width:1450px) {
+@media (min-width:1000px) and (max-width:1550px) {
   .project h2{
     font-size: 2em;
   }
@@ -822,7 +855,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   }
   .project-box .project-info .box{
     margin-top:1em;
-    width:330px;
+    width: 30vw;
     height:300px;
     border-radius: 10px;
   }
