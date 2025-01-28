@@ -162,7 +162,7 @@ font-weight: 700;
   }
   
 }
-@media (min-width:1000px) and (max-width:2000px){
+@media (min-width:1000px) and (max-width:1550px){
   .nav ul{
     font-size: 23px;
   }
@@ -314,7 +314,7 @@ font-weight: 700;
   }
 }
 
-@media (min-width:1000px) and (max-width:2000px) {
+@media (min-width:1000px) and (max-width:1550px) {
   .home .home-information {
     padding:5em;
   }
@@ -532,7 +532,7 @@ height: 180px;
       } 
 }
 
-@media (min-width:1000px) and (max-width:2000px) {
+@media (min-width:1000px) and (max-width:1550px) {
   .about h2{
     font-size: 2em;
     color: rgb(99, 96, 96);
@@ -713,7 +713,7 @@ height: 180px;
   
 }
 
-@media (min-width:1000px) and (max-width:2000px) {
+@media (min-width:1000px) and (max-width:1550px) {
   .skill h2{
     font-size: 2em;
     color: rgb(99, 96, 96);
@@ -846,7 +846,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   }
 }
 
-@media (min-width:1000px) and (max-width:2000px) {
+@media (min-width:1000px) and (max-width:1500px) {
   .project h2{
     font-size: 2em;
   }
@@ -881,7 +881,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
 }
 .contact .contact-info{
   background-color:rgba(0, 0, 0, 0.781);
-  width: 60%;
+  width:50%;
   height: 90%;
   padding: 3em;
   margin-top: 2em;
@@ -894,7 +894,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   box-shadow: 10px 10px 10px rgb(35, 33, 33);
 }
 .contact-info input{
-  width:60%;
+  width:100%;
   height: 50px;
   background-color:white;
   color: black;
@@ -905,7 +905,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   border-style: none;
 }
 .contact-info textarea{
-  width:60%;
+  width:100%;
   height:150px;
   background-color:wite;
   color: black;
@@ -928,15 +928,15 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   border-style: none;
 
 }
-@media (min-width:200px) and (max-width:2000px) {
-    .contact h1 {
+/* @media (max-width:1550px) {
+      .contact h1 {
     font-size: 2.5em;
   }
   .contact h2 {
     font-size:1.8em;
   }
 .contact .contact-info{
-  width: 100%;
+  width: 70%;
   }
   .contact-info input{
   width:100%;
@@ -944,7 +944,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   .contact-info textarea{
   width: 100%;
   }
-}
+} */
 
 /* --------------------------footer-------------------------- */
 .footer{
