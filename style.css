@@ -162,18 +162,22 @@ font-weight: 700;
   }
   
 }
-/* @media (min-width:1001px) and (max-width:1550px){
+@media (min-width:1001px) and (max-width:1350px){
+  .nav h1 {
+    font-size:2em;
+  }
   .nav ul{
-    font-size: 23px;
+    font-size: 19px;
   }
   
-} */
+}
 
 /*---------------------------home------------------------*/
 .home {
   width: 100vw;
   height: 600px;
   margin-top:1em;
+  /* background-color: red; */
 }
 .home .home-information {
   display: flex;
@@ -319,30 +323,35 @@ font-weight: 700;
   }
 }
 
-/* @media (min-width:1001px) and (max-width:1550px) {
+@media (min-width:1001px) and (max-width:1350px) {
+  .home{
+    margin-top:0;
+    
+  }
   .home .home-information {
     padding:5em;
   }
-  .home-information .info {
-      width: 60%;
-  }
   .home-information .info .greet {
-    font-size:17px;
+    font-size:12px;
   }
   .home-information .info .name {
-    font-size:28px;
+    font-size:25px;
   }
   .home-information .info h1 {
-    font-size: 3em;
+    font-size:2.5em;
   }
   .home-information .info p {
-    font-size: 20px;
+    font-size:15px;
   }
   .home-information .buttons {
     gap:1em;
     margin-left: -36px;
   }
-} */
+  .buttons button {
+    width: 130px;
+    font-size: 13px;
+  }
+}
 /* -------------------about---------------------- */
 .about {
   display: flex;
@@ -466,7 +475,7 @@ height: 180px;
     padding: 1em;
   }
   .image img {
-    width:48vw;
+    width:45%;
     height:25vh;
   }
   .about .about-information {
@@ -499,7 +508,7 @@ height: 180px;
         width:100vw;
       }
       .image img {
-        width:35vw;
+        width:35%;
         height: 30vh;
       }
       .about .about-information {
@@ -541,34 +550,37 @@ height: 180px;
       } 
 }
 
-/* @media (min-width:1001px) and (max-width:1550px) {
+@media (min-width:1001px) and (max-width:1350px) {
   .about h2{
-    font-size: 2em;
+    font-size:1.6em;
     color: rgb(99, 96, 96);
   }
   .about h1{
-    font-size:2.5em ;
+    font-size:2em ;
   }
   .about .image {
-    width:65%;
-    height: 300px;
-    padding:1.5em;
+    width:75%;
+    height: 270px;
   }
   .image img {
-    width:45%;
+    width:35%;
   }
   .about .about-information {
-    width:calc(100%-65%);
-   
+    width:calc(100%-75%);
+    margin-right:0;
   }
   .about-information p {
-    font-size:20px;
+    font-size:15px;
   }
   .about-information .about-box .about-education{
-    width:250px;
-    font-size:1.5em;
+    width:240px;
+    font-size:1.3em;
   } 
-} */
+  .about-education .ed-box {
+    width:280px;
+    font-size: 13px;
+  }
+}
 /* -------------------------------skill-------------------------- */
 .skill{
   width: 100vw;
@@ -699,7 +711,7 @@ height: 180px;
     gap:1em;
   }
   .skill-info h3{
-    font-size:10px;
+    font-size:9px;
   }
 }
 
@@ -721,13 +733,13 @@ height: 180px;
   
 }
 
-/* @media (min-width:1001px) and (max-width:1550px) {
+@media (min-width:1001px) and (max-width:1550px) {
   .skill h2{
-    font-size: 2em;
+    font-size:1.6em;
     color: rgb(99, 96, 96);
   }
   .skill h1{
-    font-size:2.5em ;
+    font-size:2em ;
   }
   .skill .skill-box{
     gap:15px;
@@ -743,7 +755,7 @@ height: 180px;
   .skill-info h3{
     font-size:15px;
   }
-} */
+}
 /* -------------------------------------project----------------------- */
 .project{
   width: 100vw;
@@ -820,7 +832,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   /* gap: 1em; */
 }
 .project-box .project-info .box{
-  width:90vw;
+  width:320px;
 }
 }
 @media (min-width:500px) and (max-width:800px){
@@ -835,7 +847,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   justify-content: center;
 }
 .project-box .project-info .box{
-  width:70vw;
+  width:530px;
   height:300px;
   border-radius: 10px;
 }
@@ -847,20 +859,20 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   }
 }
 
-/* @media (min-width:1001px) and (max-width:1500px) {
+@media (min-width:1001px) and (max-width:1350px) {
   .project h2{
-    font-size: 2em;
+    font-size:1.6em;
   }
   .project h1{
-    font-size:2.5em ;
+    font-size:2em ;
   }
-  .project-box .project-info .box{
+  /* .project-box .project-info .box{
     margin-top:1em;
-    width: 30vw;
+    width:35vw;
     height:300px;
     border-radius: 10px;
-  }
-} */
+  } */
+}
 
 
 /* ---------------------contact---------------------- */
@@ -945,6 +957,18 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
     width:70%;
     }
   
+}
+@media (min-width:1000px) and (max-width:1350px) {
+  .contact h1{
+    font-size: 2em;
+  }
+  .contact h2{
+    font-size: 1.6em;
+  }
+  .contact .contact-info{
+    background-color:rgba(0, 0, 0, 0.781);
+    width:60%;
+  }
 }
 
 /* --------------------------footer-------------------------- */
