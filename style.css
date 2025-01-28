@@ -162,7 +162,7 @@ font-weight: 700;
   }
   
 }
-@media (min-width:1000px) and (max-width:1550px){
+@media (min-width:1000px) and (max-width:2000px){
   .nav ul{
     font-size: 23px;
   }
@@ -314,7 +314,7 @@ font-weight: 700;
   }
 }
 
-@media (min-width:1000px) and (max-width:1550px) {
+@media (min-width:1000px) and (max-width:2000px) {
   .home .home-information {
     padding:5em;
   }
@@ -532,7 +532,7 @@ height: 180px;
       } 
 }
 
-@media (min-width:1000px) and (max-width:1550px) {
+@media (min-width:1000px) and (max-width:2000px) {
   .about h2{
     font-size: 2em;
     color: rgb(99, 96, 96);
@@ -713,7 +713,7 @@ height: 180px;
   
 }
 
-@media (min-width:1000px) and (max-width:1550px) {
+@media (min-width:1000px) and (max-width:2000px) {
   .skill h2{
     font-size: 2em;
     color: rgb(99, 96, 96);
@@ -846,7 +846,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   }
 }
 
-@media (min-width:1000px) and (max-width:1550px) {
+@media (min-width:1000px) and (max-width:2000px) {
   .project h2{
     font-size: 2em;
   }
@@ -928,7 +928,7 @@ box-shadow: 2px 2px 10px rgb(33, 31, 31);
   border-style: none;
 
 }
-@media (min-width:200px) and (max-width:1450px) {
+@media (min-width:200px) and (max-width:2000px) {
     .contact h1 {
     font-size: 2.5em;
   }
